@@ -81,6 +81,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+INTERNAL_IPS = [
+    '127.0.0.1',
+    'django-project-index.herokuapp.com'
+]
 
 
 # Password validation
