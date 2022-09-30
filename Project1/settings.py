@@ -32,7 +32,7 @@ ALLOWED_HOSTS = ['django-project-index.herokuapp.com']
 # Application definition
 
 INSTALLED_APPS = [
-    'whitenoise.runserver_nostatc',
+    'whitenoise',
     'myapp.apps.MyappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
