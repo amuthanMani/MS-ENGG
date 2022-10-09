@@ -21,7 +21,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
 
 
-
+ 
+SECRET_KEY = 'django-insecure-k4+jlzp$w87j39_g)t(0l@k%^t401b!snuxlk%s=)ztl3lrsna'
+DEBUG = False
+ALLOWED_HOSTS = ['127.0.0.1', 'django-project-index.herokuapp.com']
 
 # Application definition
 
@@ -70,6 +73,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Project1.wsgi.application'
 
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
+    }
+}
 
 
 INTERNAL_IPS = [
@@ -95,7 +104,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+DEBUG = False
 
+
+
+
+
+
+ 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
@@ -118,4 +134,8 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+
+
 
