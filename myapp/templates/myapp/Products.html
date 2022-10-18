@@ -1,73 +1,47 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" content="HTML, CSS">
-        <meta name="description" content="...">
-        <link rel="stylesheet" href="enquiry.css">
-        <title>Project</title>
-    </head>
-    <body>
-        <div class="header">
-            <input type="checkbox" id="openSidebarMenu">
-            <label for="openSidebarMenu" class="sidebarIcontoggle">
-                <div class="spin"><div class="spinner top"></div>
-                <div class="spinner middle"></div>
-                <div class="spinner bottom"></div></div>
-            </label>
-            <div id="sidebarMenu">
-                <ul class="menu">
-                    <img class="hom-imgg" src="MS_logo3.png" alt="dsf">
-                
-                    <li><a href="Home.html">HOME</a></li>
-                    <li><a href="Products.html"  style="color:black;">PRODUCTS</a></li>
-                    <li><a href="Solutions.html">SOLUTIONS</a></li>
-                    <li><a href="Contacts.html">CONTACTS</a></li>
-                    <li><a href="Enquiry.html">ENQUIRY</a></li>
-                </ul>
-            </div>    <h1 class="heading">PRODUCTS</h1>
-            </div>
+{% extends 'Base.html' %}
+{% load static %}
+{% block content %}  
+ <h1 class="heading">PRODUCTS</h1>
             <div class="con-image">
-                <img class="con2" src="pro2.jpg" alt="fdd">
+                <img class="con2" src="static/pro2.jpg" alt="fdd">
             </div>
             <div class="tot-box">
             <h2 class="pro-h2">GATE VALVE</h2>
             <div class="pro-box">
                 <div class="pro-con">
                     <ul>
-                        <li>➢ Suitable for cleaning with a cleaning pig</li>
-                        <li>➢ One extension spindle for several dimensions
+                        <li> Suitable for cleaning with a cleaning pig</li>
+                        <li> One extension spindle for several dimensions
                         </li>
-                        <li>➢ Suitable for operation by automatic actuators
+                        <li> Suitable for operation by automatic actuators
                         </li>
-                        <li>➢ Easy refitting for position indicator and automatic actuators on the standard bonnet
+                        <li> Easy refitting for position indicator and automatic actuators on the standard bonnet
                         </li>
-                        <li>➢ Duplex stainless steel spindle
+                        <li> Duplex stainless steel spindle
                         </li>
                     </ul>
                 </div>
                 <div class="pro-img">
-                    <img class="pro-img1" src="pro3.jpg" alt="df">
+                    <img class="pro-img1" src="static/pro3.jpg" alt="df">
                 </div>
             </div>
             <h2 class="pro-h2 head">BUTTERFLY VALVE</h2>
             <div class="pro-box">
                 <div class="pro-con">
                     <ul>
-                        <li>➢ Suitable for cleaning with a cleaning pig</li>
-                        <li>➢ One extension spindle for several dimensions
+                        <li> Suitable for cleaning with a cleaning pig</li>
+                        <li> One extension spindle for several dimensions
                         </li>
-                        <li>➢ Suitable for operation by automatic actuators
+                        <li> Suitable for operation by automatic actuators
                         </li>
-                        <li>➢ Easy refitting for position indicator and automatic actuators on the standard bonnet
+                        <li> Easy refitting for position indicator and automatic actuators on the standard bonnet
                         </li>
-                        <li>➢ Duplex stainless steel spindle
+                        <li> Duplex stainless steel spindle
                         </li>
                     </ul>
                 </div>
                 <div class="pro-img">
-                    <img class="pro-img1" src="pro4.jpg" alt="df">
+                    <img class="pro-img1" src="static/pro4.jpg" alt="df">
                 </div>
             </div>
 
@@ -75,19 +49,19 @@
             <div class="pro-box">
                 <div class="pro-con">
                     <ul>
-                        <li>➢ Suitable for cleaning with a cleaning pig</li>
-                        <li>➢ One extension spindle for several dimensions
+                        <li> Suitable for cleaning with a cleaning pig</li>
+                        <li> One extension spindle for several dimensions
                         </li>
-                        <li>➢ Suitable for operation by automatic actuators
+                        <li> Suitable for operation by automatic actuators
                         </li>
-                        <li>➢ Easy refitting for position indicator and automatic actuators on the standard bonnet
+                        <li> Easy refitting for position indicator and automatic actuators on the standard bonnet
                         </li>
-                        <li>➢ Duplex stainless steel spindle
+                        <li> Duplex stainless steel spindle
                         </li>
                     </ul>
                 </div>
                 <div class="pro-img">
-                    <img class="pro-img1" src="pro4.jpg" alt="df">
+                    <img class="pro-img1" src="static/pro4.jpg" alt="df">
                 </div>
             </div>
             
@@ -95,58 +69,21 @@
             <div class="pro-box">
                 <div class="pro-con">
                     <ul>
-                        <li>➢ Suitable for cleaning with a cleaning pig</li>
-                        <li>➢ One extension spindle for several dimensions
+                        <li> Suitable for cleaning with a cleaning pig</li>
+                        <li> One extension spindle for several dimensions
                         </li>
-                        <li>➢ Suitable for operation by automatic actuators
+                        <li> Suitable for operation by automatic actuators
                         </li>
-                        <li>➢ Easy refitting for position indicator and automatic actuators on the standard bonnet
+                        <li> Easy refitting for position indicator and automatic actuators on the standard bonnet
                         </li>
-                        <li>➢ Duplex stainless steel spindle
+                        <li> Duplex stainless steel spindle
                         </li>
                     </ul>
                 </div>
                 <div class="pro-img">
-                    <img class="pro-img1" src="pro4.jpg" alt="df">
+                    <img class="pro-img1" src="static/pro4.jpg" alt="df">
                 </div>
             </div>
         </div>
-        <footer>
-            <div class="foot foot-pro">
-                <div class="footer">
-                    <div>
-                        <h3>Information</h3>
-                        <ul class="foot1">
-                            <li>Home</li>
-                            <li>Solutions</li>
-                            <li>Media Gallery</li>      
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>COMPANY</h3>
-                        <ul class="foot1">
-                            <li>About Us</li>
-                            <li>Our Legacy</li>
-                            <li>Our Vision & Mission</li>                        
-                        </ul>
-                    </div>
-                    <div>
-                        <h3>CONTACT DETAILS</h3>
-                        <ul class="foot1">
-                            <li>msengcovai@gmail.com</li>
-                            <li>+91-9789134266</li>
-                            <li>WORKING</li>   
-                            <li>MON - SAT | 9:30 AM - 5:30 PM</li>
-                        </ul>
-                    </div>
-                </div>
-               <div class="foot-imgs">
-                   <img class="foot-img fac" src="fac.png" alt="dsd">
-                   <img class="foot-img" src="twi.png" alt="dfds">
-                   <img class="foot-img ins" src="ins.png" alt="ds">
-               </div>
-               <p class="foot-p">&copy; 2022 MS ENGINEERINGS All rights reserved
-            </p>
-            </div>
-        </footer>
-    </body>
+{% endblock content %}
+            
