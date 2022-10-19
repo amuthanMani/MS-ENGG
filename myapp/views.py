@@ -7,16 +7,16 @@ def home_screen_view(request):
    return render(request, "Base.html", {})
 
 def index(request): 
-   return render(request, 'myapp/Home.html')
+   return render(request, 'Home.html')
 
 def index1(request): 
-   return render(request, 'myapp/Products.html')
+   return render(request, 'Products.html')
 
 def index2(request): 
-   return render(request, 'myapp/Solutions.html')
+   return render(request, 'Solutions.html')
 
 def index3(request): 
-   return render(request, 'myapp/Contacts.html')
+   return render(request, 'Contacts.html')
 
 def index4(request): 
-   return render(request, 'myapp/Enquiry.html')
+   return render(request, 'Enquiry.html')
