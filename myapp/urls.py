@@ -6,6 +6,8 @@ from Project1.settings import STATIC_URL
 from . import views
 from django.conf import settings
 from django.conf.urls.static import static
+from turtle import settiltangle
+import tkinter as TK
 
 urlpatterns = [
     path('', views.index, name='index'),
