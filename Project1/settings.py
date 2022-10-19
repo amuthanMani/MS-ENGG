@@ -73,13 +73,11 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'Project1.wsgi.application'
 
-<<<<<<< HEAD
-SECRET_KEY = 'django-insecure-k4+jlzp$w87j39_g)t(0l@k%^t401b!snuxlk%s=)ztl3lrsna'
 
 
 
-=======
->>>>>>> cd74440fab1d5b3ad28cb4b3a79d40dd15dbd1ce
+
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -138,16 +136,17 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
-<<<<<<< HEAD
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static'),   
-]
+
+
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'images')
 
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),   
+]
 
-=======
+
 
 
 # Default primary key field type
