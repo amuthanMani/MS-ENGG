@@ -112,7 +112,7 @@ DEBUG = False
 
 
 
-ALLOWED_HOSTS = ['127.0.0.1', 'django-project-index.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'ms-engg.herokuapp.com']
 
 
 
